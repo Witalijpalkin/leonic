@@ -8,4 +8,5 @@ function() {
 	burger.classList.toggle('burger--active');
 
 	menu.classList.toggle('header__nav--active');
+	document.body.classList.toggle('stop-scroll');
 })
