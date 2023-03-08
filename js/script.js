@@ -23,3 +23,13 @@ menuLinks.forEach(function (el) {
 
 	})
 })
+
+const btnMore = document.querySelector('.articles-more');
+const articleItems = document.querySelectorAll('.articles-item');
+
+btnMore.addEventListener('click', () => {
+
+	articleItems.forEach(el => {el.classList.add('articles-item--visible') });
+	btnMore.closest('.articles-center').classList.add('articles-center--hidden');
+
+});

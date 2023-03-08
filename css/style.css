@@ -201,11 +201,6 @@ body {
   opacity: 0;
 }
 
-.burger {
-  /*display: none;*/
-}
-
-
  /* .hero */
 .hero {
   padding-top: 113px;
@@ -333,9 +328,6 @@ body {
 
 /* article */
 
-/*.articles {
-  border-bottom: 1px solid #DADADA;
-}*/
 
 .articles-list {
   flex-wrap: wrap;
@@ -432,6 +424,12 @@ body {
   max-width: 210px;
   transition: color 0.3s ease-in-out;
 }
+.articles-center {
+  padding-top: 20px;
+  text-align: center;
+  display: none;
+}
+
 
 
 /* clients */
